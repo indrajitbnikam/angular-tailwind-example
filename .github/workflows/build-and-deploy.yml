@@ -24,7 +24,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
-    - run: npm run build -- --prod --baseHref="/angular-tailwind-example"
+    - run: npm run build -- --prod --baseHref="https://indrajitbnikam.github.io/angular-tailwind-example/"
 
     # You may pin to the exact commit or the version.
     # uses: JamesIves/github-pages-deploy-action@54066045208a389f6e16e9030494962f8afb4dfc
